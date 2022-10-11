@@ -1,0 +1,9 @@
+body{
+    background-image: url(img/backct.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.formulario{
+    opacity: 95%;
+}

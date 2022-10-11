@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+
+.logo{
+    height: 185px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+.logo img{
+    width: 200px;
+
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+}
+.social img{
+    filter: brightness(0) saturate(100%) invert(64%) sepia(37%) saturate(565%) hue-rotate(1deg) brightness(101%) contrast(84%);
+    width: 40px;
+}
+
+.linkinteractive{
+    margin-top: 20px;
+}
+
+.linkinteractive li{
+    height: 56px;
+    border-radius: 20px;
+    box-shadow: 03px 5px #CFA658;
+    margin: 20px 20px;
+    display: block;
+    text-align: center;
+    background-color: white;
+}
+
+
+
+h1{
+    font-family: 'Montserrat',sans-serif,
+}
+h2{    
+    font-size: 20px;
+    font-family: "Montserrat",sans-serif;
+    color: black;
+}
+h3{
+    font-family: 'Montserrat',sans-serif;
+}
+h4{
+    font-family: 'Montserrat',sans-serif;
+    color: grey;
+}
+h5{
+    font-family: 'Montserrat',sans-serif;
+    color: white;
+    background-color: #CFA658;
+    border-radius: 40px;
+    text-align: center;
+    width: 250px;
+    height: 20px;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    height: 180px;
+}
+
+.slogan, .duvida{
+    width: 185px;
+    display: block;
+    justify-content: center;
+    align-self: center;
+    margin: 20px 20px;
+    color: white;
+    font-size: 12px;
+}
+.slogan img{
+    width: 250px;
+    height: 200px;
+}
+
+button{
+    background-color: #CFA658;
+    border-radius: 20px;
+    width: 100px;
+    height: 60px;
+    color: white;
+    margin-top: 20px;
+    }
+
+.semburocracia{
+    background-color: #CFA658;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+}
